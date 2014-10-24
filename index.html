@@ -1,0 +1,65 @@
+<!doctype html>
+<!--[if lte IE 7]> <html class="no-js ie67 ie678" lang="fr"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8 ie678" lang="fr"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="fr"> <![endif]-->
+<!--[if gt IE 9]> <!--><html class="no-js" lang="fr"> <!--<![endif]-->
+<head>
+		<meta charset="UTF-8">
+		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+		<title>J'aime Schnaps.it</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="css/knacss.css" media="all">
+		<link rel="stylesheet" href="css/styles.css" media="all">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />	
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+</head>
+<body>
+	<div data-role="page" id="home">
+		<header data-role="header">
+			<h1>List App</h1>
+		</header>
+		<article data-role="content">
+			<img src="1.png" alt="" />
+			<ul data-role="listview" data-filter="true">
+					<li><a href="#Mignonne"><h1>Trop Mignonne</h1><img src="1.png" alt="" /><p>Design de la catégorie Bébé/Famille</p></a></li>
+					<li><a href="#Maman"><h1>Voila à quoi ressemble la maman parfaite</h1><img src="2.png" alt="" /><p>Design de la catégorie Bébé/Famille</p></a></li>
+					<li><a href="#Marraine"><h1>Voila à quoi ressemble la marraine parfaite</h1><img src="3.png" alt="" /><p>Design de la catégorie Bébé/Famille</p></a></li>
+				</ul>
+			</nav>
+		</article>
+		<footer data-role="footer">
+			<nav data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home">Home</a></li>
+					<li><a href="#Mignonne" data-icon="grid">Photo</a></li>
+					<li><a href="#Marraine" data-icon="infos">Infos</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div> <!-- page -->
+	
+	<div data-role="page" id="Mignonne">
+		<header data-role="header">
+			<a href="#home" data-icon="home">Accueil</a>
+			<h1>Mignonne</h1>
+		</header>
+	</div> <!-- page -->
+	
+	<div data-role="page" id="Maman">
+		<header data-role="header">
+			<h1>Maman</h1>
+		</header>
+	</div> <!-- page -->
+	
+	<div data-role="page" id="Marraine">
+		<header data-role="header">
+			<h1>Marraine</h1>
+		</header>
+	</div> <!-- page -->
+
+</body>
+</html>
